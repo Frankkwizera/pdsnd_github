@@ -22,5 +22,7 @@ Over the past decade, bicycle-sharing systems have been growing in number and po
 </ul>
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+ <a href="https://www.udacity.com/">https://www.udacity.com/</a><br>
+ <a href="https://www.motivateco.com/">https://www.motivateco.com/</a>
+
 
