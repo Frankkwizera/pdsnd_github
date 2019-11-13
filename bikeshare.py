@@ -167,6 +167,9 @@ def main():
         city, month, day = get_filters()
         df = load_data(city, month, day)
         
+        """
+        Checking if data frame is not empty 
+        """
         if not df.empty:
             display_data(df)
             time_stats(df)
