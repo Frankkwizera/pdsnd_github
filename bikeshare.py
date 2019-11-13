@@ -2,10 +2,14 @@ import time
 import pandas as pd
 import numpy as np
 
+"""
+Cities and corresponding csv files
+"""
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
+# Yearly Months
 months =  ['january','february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december']
     
 def get_filters():
@@ -44,8 +48,13 @@ def get_filters():
 
 def display_data(df):
     """
-    Displaying 5 rows of raw data as per user request
+    Asks user to view 5 lines of raw data (yes/no).
+
+    Returns:
+        - 5 lines of raw data
+        - prompts back for additional 5 lines of raw data
     """
+
     lower_bound = 0 #initializing the first index
     
     while True:
