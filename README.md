@@ -1,6 +1,6 @@
 ### Date created 13<sup>th</sup> November 2019
 
-### Explore US Bikeshare Data
+### Explore US Bikeshare Data <small>(Python Programming for data science nano degree)</small>
 
 ### About the project
 In this project, i used of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington.
